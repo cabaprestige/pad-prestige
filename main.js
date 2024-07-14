@@ -46,7 +46,7 @@ form.addEventListener("submit", function (e) {
 
 💸 *MÍNIMO DE CARGA $1.000* 💸
 Envíe el comprobante y debajo únicamente su usuario asignado.
-💻 https://universegame.best 
+💻 https://azarlatino1.com/ 
 
 🚨 *NO ENVÍE DINERO SIN CONSULTAR EL CBU PREVIAMENTE.* Si no consulta y transfiere a una cuenta inactiva, la acreditación de sus fichas se demorará.`;
       const elementoTemporal = document.createElement("textarea");
@@ -78,7 +78,8 @@ Envíe el comprobante y debajo únicamente su usuario asignado.
 });
 
 nombreApodo.addEventListener("click", () => {
-  const texto = `Hola! Para comenzar a jugar con nosotros *te pido tu nombre y apellido* así podemos generarte un usuario! 👨🏻‍💻`;
+  const texto = `Hola! Para comenzar a jugar con nosotros *te pido tu nombre y apellido* así podemos generarte un usuario! 👨🏻‍💻 
+🔞 *SÓLO APTO PARA MAYORES DE 18 AÑOS* 🔞`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -94,9 +95,9 @@ registrar.addEventListener("click", function (e) {
 
   const texto = `👑 *USUARIO CREADO* 👑
 
-📲 Para jugar ingrese aquí https://universegame.best
+📲 Para jugar ingrese aquí https://azarlatino1.com/
 *SU USUARIO ES:* ${user}
-*CONTRASEÑA:* abc123
+*CONTRASEÑA:* hola1234
 
 *Para cargar dinero a su cuenta CONSULTE NUESTRO CBU VIGENTE* 📩`;
   const elementoTemporal = document.createElement("textarea");
@@ -122,7 +123,7 @@ bienvenida.addEventListener("click", function (e) {
 
 🧑🏻‍💻 *USUARIO*: ${user}
 🔐 *CONTRASEÑA*: abc123
-📱 *PLATAFORMA:* https://universegame.best
+📱 *PLATAFORMA:* https://azarlatino1.com/
 
 🤑 *MÍNIMO DE CARGA*: $1.000
 🤑 *MINIMO DE RETIRO*: $2.000
@@ -151,10 +152,10 @@ Envíe el *COMPROBANTE DE TRANSFERENCIA* y debajo del mismo escriba sólo su *US
 info.addEventListener("click", () => {
   const texto = `¡Hola! 😄 *Somos Caba Prestige, tu casino online de confianza.*
 
-📱En nuestra PLATAFORMA: https://universegame.best encontrarás: 
+📱 *PLATAFORMA*: https://azarlatino1.com/ aquí encontrarás: 
 . Slots (maquinitas)
 . Ruletas en vivo
-. Apuestas deportivas
+. Apuestas deportivas (solo se aceptan apuestas de primera línea) 
 . Blackjack
 . Baccarat
 . Bingo
@@ -200,7 +201,7 @@ retiroExitoso.addEventListener("click", () => {
   const texto = `*SU PREMIO ESTÁ EN FILA* 💸
 Las fichas ya fueron retiradas de su cuenta! Cuando el pago esté listo le enviaremos el comprobante del mismo. 
 
-🙏🏼 *POR FAVOR, ESPERE QUE SE EFECTÚE EL PAGO SIN RESPONDER ESTE MENSAJE, DE LO CONTRARIO, PERDERÁ EL LUGAR EN LA FILA Y LA TRANSFERENCIA SE DEMORARÁ* ⚠️`;
+🙏🏼 En caso de que quiera retirar más fichas *POR FAVOR* avísenos antes de que le abonemos, sino, *le recomiendo NO responder hasta que le enviemos el comprobante del pago, de lo contrario perderá el lugar en la fila y su pago se demorará más de lo previsto.* ⚠️`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
