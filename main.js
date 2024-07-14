@@ -179,7 +179,7 @@ Si te interesa y queres que te generemos un usuario responde este mensaje indic�
 retiro.addEventListener("click", () => {
   const texto = `Hola! *Felicidades por tu premio* 🙌🏼 Para retirar el dinero de tu cuenta te solicito los siguientes datos *EN ORDEN*: 
 
-➡️ *Usuario de juego:*
+➡️ *Usuario del juego:*
 ➡️ *Nombre completo que figura en tu cuenta bancaria:*
 ➡️ *CBU o ALIAS:*
 ➡️ *Monto que desea desea retirar:*
