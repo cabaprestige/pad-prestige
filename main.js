@@ -13,7 +13,7 @@ let sistemaRecomendacion = document.getElementById("consultaporPremio");
 let bonificacion = document.getElementById("bonificacion");
 let solicitarComprobante = document.getElementById("solicitarComprobante");
 let solicitarUsuario = document.getElementById("solicitarUsuario");
-let publicidad = document.getElementById("publicidad");
+let publicidad = document.getElementById("premioDemorado");
 let noIngreso = document.getElementById("noIngreso");
 let cbuEquivocado = document.getElementById("cbuEquivocado");
 let mantenimiento = document.getElementById("mantenimiento");
@@ -294,7 +294,7 @@ solicitarComprobante.addEventListener("click", () => {
 });
 
 solicitarUsuario.addEventListener("click", () => {
-  const texto = `Por favor envíeme su usuario asignado debajo del comprobante para poder cargarle las fichas. Recuerde hacerlo siempre 🙏🏼`;
+  const texto = `Envíeme *sólo su usuario asignado* debajo del comprobante para poder cargarle las fichas. Y por favor, *recuerde hacerlo siempre* 🙏🏼`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -304,9 +304,10 @@ solicitarUsuario.addEventListener("click", () => {
   document.body.removeChild(elementoTemporal);
 });
 
-publicidad.addEventListener("click", () => {
-  const texto = `Le informo que estamos en publicidad y *podemos presentar demoras a la hora de responder*. 
-Le pedimos porfavor paciencia ya que contestamos *por orden de llegada* y si envia muchos mensajes, su chat se posiciona *en el último lugar de la fila* y demoramos más en responderle! 🙏🏻`;
+premioDemorado.addEventListener("click", () => {
+  const texto = `Hola! 🙌🏼 Gracias por informarnos que el dinero del premio aún no llegó a tu cuenta. Lamentamos mucho esto, pero a veces, las transferencias bancarias pueden experimentar demoras que no dependen de nosotros. De todas maneras, revisaremos internamente si hubo algún error con el pago.
+
+Es importante tener en cuenta que las transferencias pueden demorar hasta 72 horas hábiles, dependiendo del proceso de recepción de cada banco. Aguarda unos instantes a que un supervisor pueda ingresar en la cuenta a chequear el estado de la transferencia demorada! En breve te informamos.`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -330,8 +331,9 @@ noIngreso.addEventListener("click", () => {
 });
 
 cbuEquivocado.addEventListener("click", () => {
-  const texto = `Hola! Le informo que envió dinero a un cbu con el cual no estamos trabajando en este momento ❌ Dejamos especificado previamente que *POR FAVOR CONSULTE EL CBU SEGUNDOS ANTES DE TRANSFERIR*, de lo contrario puede perder su dinero.
-Aguarde a que un supervisor chequee si el dinero ingresó en la cuenta a la cual envió por error. Le advierto que si la cuenta está inactiva, su dinero no podrá ser cargado 😕`;
+  const texto = `¡Hola! 👋🏼 Lamentamos informarle que *envió dinero a un CBU con el cual no estamos trabajando en este momento.* 
+Es fundamental que *consulte el CBU justo antes de realizar una transferencia* para evitar este tipo de inconvenientes y posibles pérdidas de dinero. Esto lo dejamos aclarado previamente!
+Por favor, aguarde mientras un supervisor verifica si el dinero ha ingresado en la cuenta equivocada. *Puede demorar un rato.*`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -342,11 +344,8 @@ Aguarde a que un supervisor chequee si el dinero ingresó en la cuenta a la cual
 });
 
 mantenimiento.addEventListener("click", () => {
-  const texto = `Buenas 👋🏼 Le informamos que la pagina está siendo interrumpida debido a un mantenimiento.🧑🏻‍🔧 Desde nuestro lado no podemos cargar ni descargar fichas.
-
-Les pedimos paciencia, en cuanto se solucione le avisamos! 
-
-Gracias y disculpen las molestias 🙏🏼`;
+  const texto = `Hola! La plataforma de juegos está experimentando algunas dificultades. Esto es debido a un *mantenimiento* que están realizando en la misma. Por este motivo, es posible que experimente caídas en el servicio sin previo aviso o una demora notable para poder ingresar en la página o al cargar los juegos. 
+No te preocupes que estamos al tanto y ya lo reclamamos para que lo puedan solucionar cuanto antes!`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -357,8 +356,7 @@ Gracias y disculpen las molestias 🙏🏼`;
 });
 
 soporte.addEventListener("click", () => {
-  const texto = `Buenas!👋🏻 Por problemas e inconvenientes con la plataforma *por favor comuníquese con el soporte de la misma página* (lo puede hacer mediante el cuadro de diálogo que se encuentra arriba a su derecha). ♦️
-Ya que nosotros no podemos acceder a la configuración de las máquinas!`;
+  const texto = `¡Hola! 👋🏼 Debido a problemas e inconvenientes con la plataforma, le recomendamos que *se ponga en contacto con nuestro equipo de soporte* accediendo a la sección *"Soporte"* en la página de inicio. El servicio está disponible las 24 horas. Inicie una conversación detallando el problema que experimentó y adjunte capturas de pantalla si es posible. 🛠️💬`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
