@@ -120,9 +120,10 @@ bienvenida.addEventListener("click", function (e) {
   console.log(user);
 
   const texto = `Hola! 👑 *Bienvenido/a Caba Prestige*  
+🔞 *SÓLO APTO PARA MAYORES DE 18 AÑOS* 🔞
 
 🧑🏻‍💻 *USUARIO*: ${user}
-🔐 *CONTRASEÑA*: abc123
+🔐 *CONTRASEÑA*: hola1234
 📱 *PLATAFORMA:* https://azarlatino1.com/
 
 🤑 *MÍNIMO DE CARGA*: $1.000
