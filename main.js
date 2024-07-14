@@ -95,7 +95,7 @@ registrar.addEventListener("click", function (e) {
 
   const texto = `👑 *USUARIO CREADO* 👑
 
-📲 Para jugar ingrese aquí https://azarlatino1.com/
+📲 Para jugar ingrese a https://azarlatino1.com/
 *SU USUARIO ES:* ${user}
 *CONTRASEÑA:* hola1234
 
