@@ -119,7 +119,7 @@ bienvenida.addEventListener("click", function (e) {
   let user = document.getElementById("usuario2").value;
   console.log(user);
 
-  const texto = `Hola! 👑 *Bienvenido/a Caba Prestige*  
+  const texto = `Hola! 👑 *Bienvenido/a a Caba Prestige*  
 
 🧑🏻‍💻 *USUARIO*: ${user}
 🔐 *CONTRASEÑA*: hola1234
