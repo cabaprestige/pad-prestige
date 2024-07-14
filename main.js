@@ -257,14 +257,8 @@ Los mismos, los iremos abonando de a tandas, por lo que le pedimos paciencia, ya
 });
 
 consultaporPremio.addEventListener("click", () => {
-  const texto = `*¿QUERÉS OBTENER 1000 FICHAS GRATIS?* 🤑🎁
-
-➡️ Por cada conocido que venga de tu parte y comience a jugar con nosotros te *REGALAMOS 1000 FICHAS*.
-
-👇🏼 *¿Cómo debes hacer para recomendarnos?* 👇🏼
-A continuación te dejamos nuestro link de WhatsApp para que puedas compartirlo con tus amigos y familiares, *recorda aclararles que nos digan que vienen de tu parte (deben decirnos tu nombre de usuario)*.
-
-wa.link/cabaprestige`;
+  const texto = `Hola! Te comento que una vez que retiramos las fichas de tu cuenta, el premio entra en un proceso de pago que puede demorar de 1 a 3 horas. Previo a esto, vas a ver que el cajero te envía un mensaje que indica que no respondas hasta que se te envíe el premio. Esto nos ayuda a agilizar el proceso de pago y evitar cualquier demora adicional. 
+*Te pedimos amablemente que seas paciente que en breve te enviamos el pago!*`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
