@@ -256,7 +256,7 @@ Los mismos, los iremos abonando de a tandas, por lo que le pedimos paciencia, ya
   document.body.removeChild(elementoTemporal);
 });
 
-sistemaRecomendacion.addEventListener("click", () => {
+consultaporPremio.addEventListener("click", () => {
   const texto = `*¿QUERÉS OBTENER 1000 FICHAS GRATIS?* 🤑🎁
 
 ➡️ Por cada conocido que venga de tu parte y comience a jugar con nosotros te *REGALAMOS 1000 FICHAS*.
