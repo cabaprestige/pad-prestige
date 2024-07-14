@@ -120,7 +120,6 @@ bienvenida.addEventListener("click", function (e) {
   console.log(user);
 
   const texto = `Hola! 👑 *Bienvenido/a Caba Prestige*  
-🔞 *SÓLO APTO PARA MAYORES DE 18 AÑOS* 🔞
 
 🧑🏻‍💻 *USUARIO*: ${user}
 🔐 *CONTRASEÑA*: hola1234
@@ -129,6 +128,7 @@ bienvenida.addEventListener("click", function (e) {
 🤑 *MÍNIMO DE CARGA*: $1.000
 🤑 *MINIMO DE RETIRO*: $2.000
 💰 *RETIROS Y PAGOS TODOS LOS DÍAS DE 8 AM A 00 HS*
+🔞 *SÓLO APTO PARA MAYORES DE 18 AÑOS* 🔞
 
 ⚠️ *RECUERDE CONSULTAR SIEMPRE NUESTRO CBU SEGUNDOS ANTES DE TRANSFERIR*
 
