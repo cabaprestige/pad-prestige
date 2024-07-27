@@ -38,17 +38,18 @@ form.addEventListener("submit", function (e) {
 
   if (inputNombre.length != 0 && inputCBU != 0 && inputAlias.length != 0) {
     cbuxl.addEventListener("click", () => {
-      const texto = `✅ *DATOS DEL CBU VIGENTE* ✅
+      const texto = `Hola! 😄👋🏼 *NO ENVÍE DINERO SIN CONSULTAR CBU PREVIAMENTE*. Si transfiere a una cuenta inactiva, la acreditación de sus fichas se demorará.
 
-*Cuenta a nombre de:* ${inputNombre}
-*CBU:* ${inputCBU}
-*ALIAS:* ${inputAlias}
+⬇️ *DATOS DEL CBU VIGENTE* ⬇️
 
-💸 *MÍNIMO DE CARGA $1.000* 💸
-Envíe el comprobante y debajo únicamente su usuario asignado.
-💻 https://azarlatino1.com/ 
+🔹 *Titular:* ${inputNombre}
+🔹 *CBU:* ${inputCBU}
+🔹 *ALIAS:* ${inputAlias}
 
-🚨 *NO ENVÍE DINERO SIN CONSULTAR EL CBU PREVIAMENTE.* Si no consulta y transfiere a una cuenta inactiva, la acreditación de sus fichas se demorará.`;
+💰 *MÍNIMO DE CARGA $1.000* 
+Para jugar ingrese aquí ➡️ https://azarlatino1.com/ 
+
+*Envíe el comprobante de transferencia y debajo escriba SÓLO su usuario asignado.* 📥`;
       const elementoTemporal = document.createElement("textarea");
       elementoTemporal.value = texto;
       document.body.appendChild(elementoTemporal);
@@ -79,6 +80,7 @@ Envíe el comprobante y debajo únicamente su usuario asignado.
 
 nombreApodo.addEventListener("click", () => {
   const texto = `Hola! Para comenzar a jugar con nosotros *te pido tu nombre y apellido* así podemos generarte un usuario! 👨🏻‍💻 
+
 🔞 *SÓLO APTO PARA MAYORES DE 18 AÑOS* 🔞`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
