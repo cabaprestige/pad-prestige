@@ -79,7 +79,7 @@ Para jugar ingrese aquí ➡️ https://azarlatino1.com/
 });
 
 nombreApodo.addEventListener("click", () => {
-  const texto = `Hola! Para comenzar a jugar con nosotros *te pido tu nombre y apellido* así podemos generarte un usuario! 👨🏻‍💻 
+  const texto = `¡Hola! Para comenzar a jugar con nosotros *te pido tu nombre y apellido* así podemos generarte un usuario! 👨🏻‍💻 
 
 🔞 *SÓLO APTO PARA MAYORES DE 18 AÑOS* 🔞`;
   const elementoTemporal = document.createElement("textarea");
