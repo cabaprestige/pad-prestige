@@ -220,7 +220,7 @@ Una vez que complete los datos, le retiramos las fichas y su premio será enviad
 
 retiroExitoso.addEventListener("click", () => {
   const texto = `*SU PREMIO ESTÁ EN FILA* 🏆💰
-Las fichas ya fueron retiradas de su cuenta! Cuando el pago esté listo le enviaremos el comprobante del mismo. 
+¡Las fichas ya fueron retiradas de su cuenta! Cuando el pago esté listo le enviaremos el comprobante del mismo. 
 
 🙏🏼 *Le recomiendo NO responder hasta que le enviemos el comprobante del pago, de lo contrario perderá el lugar en la fila y su pago se demorará más de lo previsto. En caso de que quiera retirar más fichas POR FAVOR avísenos antes de que le abonemos*. ⚠️`;
   const elementoTemporal = document.createElement("textarea");
