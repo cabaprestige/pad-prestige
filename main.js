@@ -49,6 +49,8 @@ form.addEventListener("submit", function (e) {
 💰 *MÍNIMO DE CARGA $1.000* 
 Para jugar ingrese aquí ➡️ https://azarlatino1.com/ 
 
+📲 *NÚMERO DE WHATSAPP DE RESPALDO* ➡️ 11 3431 4386
+
 *Envíe el comprobante de transferencia y debajo escriba SÓLO su usuario asignado.* 📥`;
       const elementoTemporal = document.createElement("textarea");
       elementoTemporal.value = texto;
@@ -81,8 +83,12 @@ Para jugar ingrese aquí ➡️ https://azarlatino1.com/
 nombreApodo.addEventListener("click", () => {
   const texto = `¡Hola! Para comenzar a jugar con nosotros *te pido tu nombre y apellido* así podemos generarte un usuario! 👨🏻‍💻 
 
-🔞 *SÓLO APTO PARA MAYORES DE 18 AÑOS* 🔞`;
-  const elementoTemporal = document.createElement("textarea");
+🤑 *MÍNIMO DE CARGA*: $1.000
+🤑 *MINIMO DE RETIRO*: $2.000
+💰 *RETIROS Y PAGOS TODOS LOS DÍAS DE 8 AM A 00 HS*
+
+
+🔞 *DESTINADO A UN PÚBLICO ADULTO:* Al acceder a jugar con nosotros, usted confirma que *tiene 18 años o más.*  const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
   elementoTemporal.select();
@@ -100,6 +106,8 @@ registrar.addEventListener("click", function (e) {
 📲 Para jugar ingrese a https://azarlatino1.com/
 *SU USUARIO ES:* ${user}
 *CONTRASEÑA:* hola1234
+
+🔞 *SÓLO APTO PARA MAYORES DE 18 AÑOS*
 
 *Para cargar dinero a su cuenta CONSULTE NUESTRO CBU VIGENTE* 📩`;
   const elementoTemporal = document.createElement("textarea");
@@ -130,15 +138,20 @@ bienvenida.addEventListener("click", function (e) {
 🤑 *MÍNIMO DE CARGA*: $1.000
 🤑 *MINIMO DE RETIRO*: $2.000
 💰 *RETIROS Y PAGOS TODOS LOS DÍAS DE 8 AM A 00 HS*
-🔞 *SÓLO APTO PARA MAYORES DE 18 AÑOS* 🔞
+🔞 *DESTINADO A UN PÚBLICO ADULTO:* Al acceder a jugar con nosotros, usted confirma que *tiene 18 años o más.*
 
-⚠️ *RECUERDE CONSULTAR SIEMPRE NUESTRO CBU SEGUNDOS ANTES DE TRANSFERIR*
+⚠️ *CONSULTE SIEMPRE NUESTRO CBU SEGUNDOS ANTES DE TRANSFERIR*
 
+📲 NÚMERO DE WHATSAPP DE RESPALDO ➡️ 11 3431 4386
+
+📷  Instagram @caba.prestige
+
+⬇️ *DATOS DEL CBU VIGENTE* ⬇️
 ✅ *Cuenta a nombre de:* ${inputNombre} ✅
 *CBU:* ${inputCBU}
 *ALIAS:* ${inputAlias}
 
-Envíe el *COMPROBANTE DE TRANSFERENCIA* y debajo del mismo escriba sólo su *USUARIO ASIGNADO* 📩`;
+Envíe el *COMPROBANTE DE TRANSFERENCIA* y debajo del mismo escriba sólo su *USUARIO REGISTRADO EN LA PÁGINA* 📩`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -155,6 +168,8 @@ Envíe el *COMPROBANTE DE TRANSFERENCIA* y debajo del mismo escriba sólo su *US
 info.addEventListener("click", () => {
   const texto = `¡Hola! 😄 *Somos Caba Prestige, tu casino online de confianza.*
 
+🔞 *DESTINADO A UN PÚBLICO ADULTO:* Al acceder a jugar con nosotros, usted confirma que *tiene 18 años o más.*
+
 📱 *PLATAFORMA*: https://azarlatino1.com/ aquí encontrarás: 
 . Slots (maquinitas)
 . Ruletas en vivo
@@ -166,7 +181,7 @@ info.addEventListener("click", () => {
 *Detalles importantes:*
 💰 *Depósito mínimo:* $1.000
 💰 *Retiro mínimo:* $2.000
-💰 *Retiro máximo:* ¡No tenemos límite!
+💰 *Retiros sin límite diario* 
 💰 Contamos con un *sistema de pagos* (puede solicitar más info sobre el mismo)
 
 Si te interesa y queres que te generemos un usuario responde este mensaje indicándonos tu nombre y apellido! 📥`;
@@ -180,12 +195,14 @@ Si te interesa y queres que te generemos un usuario responde este mensaje indic�
 });
 
 retiro.addEventListener("click", () => {
-  const texto = `Hola! *Felicidades por tu premio* 🙌🏼 Para retirar el dinero de tu cuenta te solicito los siguientes datos *EN ORDEN*: 
+  const texto = `Hola! 🙌🏼 Para retirar el dinero de tu cuenta te solicito los siguientes datos *EN ORDEN*: 
 
-➡️ *Usuario del juego:*
-➡️ *Nombre completo que figura en tu cuenta bancaria:*
-➡️ *CBU o ALIAS:*
+➡️ *Usuario registrado en la plataforma:*
 ➡️ *Monto que desea desea retirar:*
+➡️ *Nombre completo que figura en tu cuenta bancaria o digital:*
+➡️ *CBU o ALIAS:*
+
+Deben figurar *TODOS* los datos mencionados anteriormente.
 
 🔺Los retiros son a partir $2.000 *sin excepción*
 Una vez que completes los datos, te retiramos las fichas y tu premio será enviado al sector de pagos para que efectúen la transferencia. 
@@ -201,10 +218,10 @@ Una vez que completes los datos, te retiramos las fichas y tu premio será envia
 });
 
 retiroExitoso.addEventListener("click", () => {
-  const texto = `*SU PREMIO ESTÁ EN FILA* 💸
+  const texto = `*SU PREMIO ESTÁ EN FILA* 🏆💰
 Las fichas ya fueron retiradas de su cuenta! Cuando el pago esté listo le enviaremos el comprobante del mismo. 
 
-🙏🏼 En caso de que quiera retirar más fichas *POR FAVOR* avísenos antes de que le abonemos, sino, *le recomiendo NO responder hasta que le enviemos el comprobante del pago, de lo contrario perderá el lugar en la fila y su pago se demorará más de lo previsto.* ⚠️`;
+🙏🏼 *Le recomiendo NO responder hasta que le enviemos el comprobante del pago, de lo contrario perderá el lugar en la fila y su pago se demorará más de lo previsto. En caso de que quiera retirar más fichas POR FAVOR avísenos antes de que le abonemos*. ⚠️`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -215,8 +232,9 @@ Las fichas ya fueron retiradas de su cuenta! Cuando el pago esté listo le envia
 });
 
 premioEnviado.addEventListener("click", () => {
-  const texto = `*TU PREMIO YA FUE ENVIADO* 👏🏼🥳🎉 
-Felicitaciones! 💘 Gracias por jugar con *Caba Prestige* 🙏🏼 Disfrutalo mucho ✨ No te olvides de recomendarnos @caba.prestige.`;
+  const texto = `*Gracias por jugar con Caba Prestige* 💘🙏🏼 Felicitaciones! Ya enviamos tu premio 👏🏼🥳🎉  Disfrutalo mucho ✨ *No te olvides de recomendarnos mediante WhatsApp o Instagram @caba.prestige*.
+
+*Por cada persona que recomiendes, y comience a jugar con nosotros te bonificamos 1.000 fichas* 💸🌟🤑`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -227,15 +245,17 @@ Felicitaciones! 💘 Gracias por jugar con *Caba Prestige* 🙏🏼 Disfrutalo m
 });
 
 sistemaDePagos.addEventListener("click", () => {
-  const texto = `✅ *RETIROS Y PAGOS DISPONIBLES TODOS LOS DÍAS DE 8 AM A 00 HS.* 
+  const texto = `✅ *Retiros y pagos todos los días de 8 AM a 00:00 HS*. 
 
 ⬇️ *Importante:*
-*LOS PAGOS SE REALIZAN POR ORDEN DE LLEGADA.*
-🔹 *Retiros a partir de $2.000:* Se pueden realizar múltiples retiros al día sin un límite máximo. 
-🔹 *Tiempo de espera:* El proceso del pago puede demorar entre 1 a 3 hs a partir de que se le retiran las fichas del juego. 
-🔹 *Al momento de abonar se tiene en cuenta:* Cantidad de premios en fila y nuestra disponibilidad de fondos.
-🔹 *Pagos en cuotas:* Dependiendo del monto ganado y de tus transacciones previas, el pago puede realizarse en su totalidad, en cuotas o con un plan de pagos gestionado por nuestro equipo de pagos.
-🔹 *Fondos insuficientes:* Si nuestras cuentas bancarias no disponen de fondos suficientes, utilizaremos nuestra recaudadora externa, lo que implicará un porcentaje del premio como tarifa servicio.`;
+
+LOS PAGOS SE REALIZAN POR *ORDEN DE LLEGADA.* 
+🔹 *Retiros a partir de $2.000* con la posibilidad de múltiples retiros al día sin un límite máximo. 
+🔹 El *tiempo de espera* es de 1 a 3 hs a partir de que se le retiran las fichas del juego. Tenemos en cuenta la cantidad de premios en fila anteriores al suyo y nuestra disponibilidad de fondos. 
+🔹 *Dependiendo del monto ganado y de tus transacciones previas*, el pago puede realizarse en su totalidad, en cuotas o con un plan de pagos gestionado por nuestro equipo de gestión financiera.
+🔹  Si nuestras cuentas bancarias no disponen de fondos suficientes, el premio será abonado desde nuestra recaudadora externa, lo que implicará un porcentaje considerable del total de su premio.
+
+*Al utilizar nuestros servicios, usted acepta y se compromete a cumplir con estos términos y condiciones de pago. Gracias por su confianza y preferencia.* 🙏🏻`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -297,7 +317,7 @@ solicitarComprobante.addEventListener("click", () => {
 });
 
 solicitarUsuario.addEventListener("click", () => {
-  const texto = `Envíeme *sólo su usuario asignado* debajo del comprobante para poder cargarle las fichas. Y por favor, *recuerde hacerlo siempre* 🙏🏼`;
+  const texto = `Envíeme *sólo su usuario registrado en la página* debajo del comprobante para poder cargarle las fichas. Y por favor, *recuerde hacerlo siempre* 🙏🏼 🙏🏼`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
