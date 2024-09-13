@@ -49,7 +49,7 @@ form.addEventListener("submit", function (e) {
 💰 *MÍNIMO DE CARGA $1.000* 
 Para jugar ingrese aquí ➡️ https://azarlatino1.com/ 
 
-📲 NÚMERO DE WHATSAPP DE RESPALDO ➡️ 11 3431 4386
+📲 *NÚMERO DE WHATSAPP DE RESPALDO* ➡️ 11 3431 4386
 
 *Envíe el comprobante de transferencia y debajo escriba SÓLO su usuario registrado en la página.* 📥`;
       const elementoTemporal = document.createElement("textarea");
@@ -87,7 +87,7 @@ nombreApodo.addEventListener("click", () => {
 🤑 *MINIMO DE RETIRO:* $2.000
 💰 *RETIROS Y PAGOS TODOS LOS DÍAS DE 8 AM A 00 HS*
 
-🔞 *DESTINADO A UN PÚBLICO ADULTO: Al acceder a jugar con nosotros, usted confirma que *tiene 18 años o más*.`;
+🔞 *DESTINADO A UN PÚBLICO ADULTO: Al acceder a jugar con nosotros, usted confirma que tiene 18 años o más*.`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -228,7 +228,7 @@ retiroExitoso.addEventListener("click", () => {
 });
 
 premioEnviado.addEventListener("click", () => {
-  const texto = `*Gracias por jugar con Caba Prestige* 💘🙏🏼 Felicitaciones! *Ya enviamos tu premio 👏🏼🥳🎉 Disfrutalo mucho* ✨ No te olvides de recomendarnos mediante WhatsApp o Instagram @caba.prestige.
+  const texto = `*Gracias por jugar con Caba Prestige* 💘🙏🏼 Felicitaciones! *Ya enviamos tu premio* 👏🏼🥳🎉 Disfrutalo mucho ✨ No te olvides de recomendarnos mediante WhatsApp o Instagram @caba.prestige.
 
 *Por cada persona que recomiendes, y comience a jugar con nosotros te bonificamos 1.000 fichas* 💸🌟🤑`;
   const elementoTemporal = document.createElement("textarea");
@@ -241,15 +241,17 @@ premioEnviado.addEventListener("click", () => {
 });
 
 sistemaDePagos.addEventListener("click", () => {
-  const texto = `✅ *RETIROS Y PAGOS DISPONIBLES TODOS LOS DÍAS DE 8 AM A 00 HS.* 
+  const texto = `✅ *Retiros y pagos todos los días de 8 AM a 00:00 HS*. 
 
-⬇️ *Importante:*
-*LOS PAGOS SE REALIZAN POR ORDEN DE LLEGADA.*
-🔹 *Retiros a partir de $2.000:* Se pueden realizar múltiples retiros al día sin un límite máximo. 
-🔹 *Tiempo de espera:* El proceso del pago puede demorar entre 1 a 3 hs a partir de que se le retiran las fichas del juego. 
-🔹 *Al momento de abonar se tiene en cuenta:* Cantidad de premios en fila y nuestra disponibilidad de fondos.
-🔹 *Pagos en cuotas:* Dependiendo del monto ganado y de tus transacciones previas, el pago puede realizarse en su totalidad, en cuotas o con un plan de pagos gestionado por nuestro equipo de pagos.
-🔹 *Fondos insuficientes:* Si nuestras cuentas bancarias no disponen de fondos suficientes, utilizaremos nuestra recaudadora externa, lo que implicará un porcentaje del premio como tarifa servicio.`;
+⬇️ *Importante*:
+
+*LOS PAGOS SE REALIZAN POR ORDEN DE LLEGADA*. 
+🔹 *Retiros a partir de $2.000* con la posibilidad de múltiples retiros al día sin un límite máximo. 
+🔹 El *tiempo de espera es de 1 a 3 hs* a partir de que se le retiran las fichas del juego. Tenemos en cuenta la cantidad de premios en fila anteriores al suyo y nuestra disponibilidad de fondos. 
+🔹 *Dependiendo del monto ganado y de tus transacciones previas*, el pago puede realizarse en su totalidad, en cuotas o con un plan de pagos gestionado por nuestro equipo de gestión financiera.
+🔹  Si nuestras cuentas bancarias no disponen de fondos suficientes, el premio será abonado desde nuestra recaudadora externa, lo que implicará un porcentaje considerable del total de su premio.
+
+*Al utilizar nuestros servicios, aceptas y te comprometes a cumplir con estos términos y condiciones de pago. Gracias por tu confianza y preferencia*. 🙏🏻`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
