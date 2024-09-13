@@ -40,7 +40,7 @@ form.addEventListener("submit", function (e) {
     cbuxl.addEventListener("click", () => {
       const texto = `Hola! 😄👋🏼 *NO ENVÍE DINERO SIN CONSULTAR CBU PREVIAMENTE*. Si transfiere a una cuenta inactiva, la acreditación de sus fichas se demorará.
 
-⬇️ *DATOS DEL CBU VIGENTE* ⬇️
+⬇️ *DATOS DEL CBU DISPONIBLE* ⬇️
 
 🔹 *Titular:* ${inputNombre}
 🔹 *CBU:* ${inputCBU}
