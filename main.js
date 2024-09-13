@@ -40,7 +40,7 @@ form.addEventListener("submit", function (e) {
     cbuxl.addEventListener("click", () => {
       const texto = `Hola! 😄👋🏼 *NO ENVÍE DINERO SIN CONSULTAR CBU PREVIAMENTE*. Si transfiere a una cuenta inactiva, la acreditación de sus fichas se demorará.
 
-⬇️ *DATOS DEL CBU DISPONIBLE* ⬇️
+⬇️ *DATOS DEL CBU VIGENTE* ⬇️
 
 🔹 *Titular:* ${inputNombre}
 🔹 *CBU:* ${inputCBU}
@@ -49,9 +49,7 @@ form.addEventListener("submit", function (e) {
 💰 *MÍNIMO DE CARGA $1.000* 
 Para jugar ingrese aquí ➡️ https://azarlatino1.com/ 
 
-📲 *NÚMERO DE WHATSAPP DE RESPALDO* ➡️ 11 3431 4386
-
-*Envíe el comprobante de transferencia y debajo escriba SÓLO su usuario registrado en la plataforma.* 📥`;
+*Envíe el comprobante de transferencia y debajo escriba SÓLO su usuario asignado.* 📥`;
       const elementoTemporal = document.createElement("textarea");
       elementoTemporal.value = texto;
       document.body.appendChild(elementoTemporal);
@@ -81,13 +79,9 @@ Para jugar ingrese aquí ➡️ https://azarlatino1.com/
 });
 
 nombreApodo.addEventListener("click", () => {
-  const texto = `¡Hola! Para comenzar a jugar te pido tu *nombre y apellido* así podemos generarte un usuario! 👨🏻‍💻 
+  const texto = `¡Hola! Para comenzar a jugar con nosotros *te pido tu nombre y apellido* así podemos generarte un usuario! 👨🏻‍💻 
 
-🤑 *MÍNIMO DE CARGA:* $1.000
-🤑 *MINIMO DE RETIRO:* $2.000
-💰 *RETIROS Y PAGOS TODOS LOS DÍAS DE 8 AM A 00 HS*
-
-🔞 *DESTINADO A UN PÚBLICO ADULTO: Al acceder a jugar con nosotros, usted confirma que *tiene 18 años o más*.`;
+🔞 *SÓLO APTO PARA MAYORES DE 18 AÑOS* 🔞`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -106,8 +100,6 @@ registrar.addEventListener("click", function (e) {
 📲 Para jugar ingrese a https://azarlatino1.com/
 *SU USUARIO ES:* ${user}
 *CONTRASEÑA:* hola1234
-
-🔞 *SÓLO APTO PARA MAYORES DE 18 AÑOS*
 
 *Para cargar dinero a su cuenta CONSULTE NUESTRO CBU VIGENTE* 📩`;
   const elementoTemporal = document.createElement("textarea");
@@ -138,7 +130,7 @@ bienvenida.addEventListener("click", function (e) {
 🤑 *MÍNIMO DE CARGA*: $1.000
 🤑 *MINIMO DE RETIRO*: $2.000
 💰 *RETIROS Y PAGOS TODOS LOS DÍAS DE 8 AM A 00 HS*
-🔞 *SÓLO APTO PARA MAYORES DE 18 AÑOS*
+🔞 *SÓLO APTO PARA MAYORES DE 18 AÑOS* 🔞
 
 ⚠️ *RECUERDE CONSULTAR SIEMPRE NUESTRO CBU SEGUNDOS ANTES DE TRANSFERIR*
 
@@ -146,7 +138,7 @@ bienvenida.addEventListener("click", function (e) {
 *CBU:* ${inputCBU}
 *ALIAS:* ${inputAlias}
 
-Envíe el *COMPROBANTE DE TRANSFERENCIA* y debajo del mismo escriba sólo su *USUARIO REGISTRADO EN LA PÁGINA* 📩`;
+Envíe el *COMPROBANTE DE TRANSFERENCIA* y debajo del mismo escriba sólo su *USUARIO ASIGNADO* 📩`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
