@@ -137,22 +137,22 @@ Estimado cliente, antes de comenzar a jugar en nuestra plataforma, tenga en cuen
 
 🌐 *Información de nuestra empresa:*
 
-•  *Plataforma:* https://azarlatino1.com
-•  *Mínimo de carga:* $1.000 💵
-•. *Mínimo de retiro:* $2.000 (puede retirar las veces que quiera en el día)
-•. *Horarios de retiro y pago de premios:* de 8 AM a 00 HS ⏰
+*Plataforma:* https://azarlatino1.com
+*Mínimo de carga:* $1.000 💵
+*Mínimo de retiro:* $2.000 (puede retirar las veces que quiera en el día)
+*Horarios de retiro y pago de premios:* de 8 AM a 00 HS ⏰
 
-Si necesita más información sobre nuestro sistema de pagos, no dude en consultarnos.
+*Si necesita más información sobre nuestro sistema de pagos, no dude en consultarnos.*
 
-🔑  Para conocer nuestra página, aquí tiene sus datos de ingreso:
+🔑  Para conocer nuestra página, *aquí tiene sus datos de ingreso:*
 
-•  *Usuario:* ${user}
-•  *Contraseña:* hola1234
+*Usuario:* ${user}
+*Contraseña:* hola1234
 
 🏦  *CBU VIGENTE*
-•.  *Titular:* ${inputNombre}
-•.  *CVU:* ${inputCBU}
-•   *Alias:* ${inputAlias}
+*Titular:* ${inputNombre}
+*CVU:* ${inputCBU}
+*Alias:* ${inputAlias}
 
 ⚠️ *NO ENVÍE DINERO SIN CONSULTAR EL CBU PREVIAMENTE.* ⚠️
 
