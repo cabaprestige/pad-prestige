@@ -129,27 +129,36 @@ bienvenida.addEventListener("click", function (e) {
   let user = document.getElementById("usuario2").value;
   console.log(user);
 
-  const texto = `Hola! 👑 *Bienvenido/a a Caba Prestige*  
+  const texto = `*IMPORTANTE LEER* ⚠️
 
-🧑🏻‍💻 *USUARIO*: ${user}
-🔐 *CONTRASEÑA*: hola1234
-📱 *PLATAFORMA:* https://azarlatino1.com/
+Estimado cliente, antes de comenzar a jugar en nuestra plataforma, tenga en cuenta lo siguiente:
 
-🤑 *MÍNIMO DE CARGA*: $1.000
-🤑 *MINIMO DE RETIRO*: $2.000
-💰 *RETIROS Y PAGOS TODOS LOS DÍAS DE 8 AM A 00 HS*
+🔞 *NO se aceptan menores de edad.* Si nuestro sistema detecta a un menor de edad jugando, tomaremos medidas de inmediato.
 
-🔞 *DESTINADO A UN PÚBLICO ADULTO: Al acceder a jugar con nosotros, usted confirma que tiene 18 años o más*.
+🌐 *Información de nuestra empresa:*
 
-📲 *NÚMERO DE WHATSAPP DE RESPALDO* ➡️ 11 3431 4386
+•	*Plataforma:* https://azarlatino1.com
+•	*Mínimo de carga:* $1.000 💵
+•	*Mínimo de retiro:* $2.000 (puede retirar las veces que quiera en el día)
+•	*Horarios de retiro y pago de premios:* de 8 AM a 00 HS ⏰
 
-⚠️ *RECUERDE CONSULTAR SIEMPRE NUESTRO CBU SEGUNDOS ANTES DE TRANSFERIR*
+Si necesita más información sobre nuestro sistema de pagos, no dude en consultarnos.
 
-✅ *Cuenta a nombre de:* ${inputNombre} ✅
-*CBU:* ${inputCBU}
-*ALIAS:* ${inputAlias}
+🔑  Para conocer nuestra página, aquí tiene sus datos de ingreso:
 
-Envíe el *COMPROBANTE DE TRANSFERENCIA* y debajo del mismo escriba sólo su *USUARIO REGISTRADO EN LA PÁGINA* 📩`;
+*       *Usuario:* ${user}
+•	*Contraseña:* hola1234
+
+🏦  *CBU VIGENTE*
+•	*Titular:* ${inputNombre}
+•	*CVU:* ${inputCBU}
+•	*Alias:* ${inputAlias}
+
+⚠️ *NO ENVÍE DINERO SIN CONSULTAR EL CBU PREVIAMENTE.* ⚠️
+
+Una vez realizado el pago, envíe el comprobante y su usuario asignado escrito debajo para poder cargarle las fichas en el sistema.
+
+Gracias por su comprensión. *¡Le deseamos mucha suerte!* 🍀`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
