@@ -38,20 +38,27 @@ form.addEventListener("submit", function (e) {
 
   if (inputNombre.length != 0 && inputCBU != 0 && inputAlias.length != 0) {
     cbuxl.addEventListener("click", () => {
-      const texto = `Hola! 😄👋🏼 *NO ENVÍE DINERO SIN CONSULTAR CBU PREVIAMENTE*. Si transfiere a una cuenta inactiva, la acreditación de sus fichas se demorará.
+      const texto = `¡Hola! 😄👋🏼
+📢 *IMPORTANTE: Antes de realizar una transferencia, por favor consulta el CBU vigente para evitar demoras en la acreditación de tus fichas.*
 
-⬇️ *DATOS DEL CBU VIGENTE* ⬇️
+🔽 *DATOS DEL CBU VIGENTE* 🔽
 
 🔹 *Titular:* ${inputNombre}
 🔹 *CBU:* ${inputCBU}
-🔹 *ALIAS:* ${inputAlias}
+🔹 *ALIAS:* ${inputAlias} 
 
-💰 *MÍNIMO DE CARGA $1.000* 
-Para jugar ingrese aquí ➡️ https://azarlatino1.com/ 
+💰 *CARGA MÍNIMA: $1.000*
+*Para comenzar a jugar, haz clic aquí* ➡️ https://azarlatino1.com/
 
-📲 *NÚMERO DE WHATSAPP DE RESPALDO* ➡️ 11 3431 4386
+📲 NÚMERO DE WHATSAPP DE RESPALDO: ➡️ 11 3388 4819
 
-*Envíe el comprobante de transferencia y debajo escriba SÓLO su usuario registrado en la página.* 📥`;
+📤 *¿Cómo proceder?*
+- Realiza la transferencia.
+- Envía el comprobante junto con SÓLO tu usuario registrado en la página.
+
+🔞 *No aceptamos jugadores menores de 18 años*. Si detectamos que eres menor de edad y envías dinero, este será devuelto inmediatamente. Te pedimos no hacernos perder el tiempo y respetar esta regla.
+
+*¡Gracias por elegirnos y mucha suerte!* 🍀✨`;
       const elementoTemporal = document.createElement("textarea");
       elementoTemporal.value = texto;
       document.body.appendChild(elementoTemporal);
@@ -81,13 +88,15 @@ Para jugar ingrese aquí ➡️ https://azarlatino1.com/
 });
 
 nombreApodo.addEventListener("click", () => {
-  const texto = `¡Hola! Para comenzar a jugar te pido tu *nombre y apellido* así podemos generarte un usuario! 👨🏻‍💻 
+  const texto = `¡Hola! 😁✨
+🎲 Para crear tu cuenta, *necesito que me envíes tu nombre y apellido completo  para registrarte como jugador*. 👨🏻‍💻
 
-🤑 *MÍNIMO DE CARGA:* $1.000
-🤑 *MINIMO DE RETIRO:* $2.000
-💰 *RETIROS Y PAGOS TODOS LOS DÍAS DE 8 AM A 00 HS*
+💵 *Mínimo de carga: $1.000*
+💵 *Mínimo de retiro: $2.000*
+⏰ Horarios de retiros y pagos: Todos los días de 8:00 AM a 00:00 HS (contamos con sistema de pagos, si queres obtener más info no dudes en consultarnos)
 
-🔞 *DESTINADO A UN PÚBLICO ADULTO: Al acceder a jugar con nosotros, usted confirma que tiene 18 años o más*.`;
+⚠️ *Importante:*
+🔞 *No aceptamos jugadores menores de 18 años.* Si envías dinero siendo menor de edad, este será devuelto de inmediato. Respetemos las reglas y ahorremos tiempo. 🙏🏼`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -129,36 +138,32 @@ bienvenida.addEventListener("click", function (e) {
   let user = document.getElementById("usuario2").value;
   console.log(user);
 
-  const texto = `*IMPORTANTE LEER* ⚠️
+  const texto = `*Te damos la bienvenida!* 😁✨ *(IMPORTANTE LEER EL TEXTO COMPLETO)*
 
-Estimado cliente, antes de comenzar a jugar en nuestra plataforma, tenga en cuenta lo siguiente:
+🔑 *Acceso a la plataforma:* 🌐 https://azarlatino1.com
 
-🔞 *NO se aceptan menores de edad.* Si nuestro sistema detecta a un menor de edad jugando, tomaremos medidas de inmediato.
+👤 *Usuario:* ${user}
+🔒 *Contraseña:* hola1234
 
-🌐 *Información de nuestra empresa:*
+⬇️ *Información importante:*
+🔹 *Carga mínima:* $1.000
+🔹 *Retiro mínimo:* $2.000 (sin límite de retiros por día)
+⏰ *Horarios de pagos:* 8:00 AM a 00:00 HS (contamos con sistema de pagos, si queres obtener más info no dudes en consultarnos)
 
-*Plataforma:* https://azarlatino1.com
-*Mínimo de carga:* $1.000 💵
-*Mínimo de retiro:* $2.000 (puede retirar las veces que quiera en el día)
-*Horarios de retiro y pago de premios:* de 8 AM a 00 HS ⏰
+🏦 *CBU vigente:*
+🔹 *Titular:* ${inputNombre}
+🔹 *CBU:* ${inputCBU}
+🔹 *ALIAS:* ${inputAlias}
 
-*Si necesita más información sobre nuestro sistema de pagos, no dude en consultarnos.*
+⚠️ *No transfieras dinero sin consultar el CBU.*
 
-🔑  Para conocer nuestra página, *aquí tiene sus datos de ingreso:*
+🔞 *No aceptamos jugadores menores de 18 años. Si eres menor, no podrás jugar y el dinero será devuelto.*
 
-*Usuario:* ${user}
-*Contraseña:* hola1234
+📤 *Procedimiento:*
+1. Realiza la transferencia.
+2. Envía el comprobante junto con tu usuario asignado para cargar las fichas en el sistema.
 
-🏦  *CBU VIGENTE*
-*Titular:* ${inputNombre}
-*CVU:* ${inputCBU}
-*Alias:* ${inputAlias}
-
-⚠️ *NO ENVÍE DINERO SIN CONSULTAR EL CBU PREVIAMENTE.* ⚠️
-
-Una vez realizado el pago, envíe el *COMPROBANTE y su USUARIO ASIGNADO* escrito debajo para poder cargarle las fichas en el sistema.
-
-Gracias por su comprensión. *¡Le deseamos mucha suerte!* 🍀`;
+¡Buena suerte! 🍀`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
