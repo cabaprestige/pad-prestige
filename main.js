@@ -285,7 +285,7 @@ sistemaDePagos.addEventListener("click", () => {
 
 demorasPagos.addEventListener("click", () => {
   const texto = `Estimado cliente, le informamos que *estamos experimentando demoras en los pagos*⏳ 
-Los mismos, los iremos abonando de a tandas, por lo que le pedimos paciencia, ya que si envía varios mensajes, tardaremos más en enviarle el suyo 🙏🏼💸
+Los mismos, los iremos abonando de a tandas, por lo que le pedimos paciencia, ya que si envía varios mensajes, tardaremos más en enviarle el suyo 🙏🏼
 
 *Si quiere continuar jugando, puede cargar fichas de su premio* 😁 Agradecemos su comprensión!`;
   const elementoTemporal = document.createElement("textarea");
@@ -298,7 +298,7 @@ Los mismos, los iremos abonando de a tandas, por lo que le pedimos paciencia, ya
 });
 
 consultaporPremio.addEventListener("click", () => {
-  const texto = `¡Hola! 👋🏼 Te comento que una vez que retiramos las fichas de tu cuenta, el premio entra en un proceso de pago que puede demorar de 1 a 3 horas ⏳💸. Previo a esto, verás que el cajero te envía un mensaje que indica que NO respondas hasta que se te envíe el premio. Esto nos ayuda a agilizar el proceso y evitar cualquier demora adicional. 🚀
+  const texto = `¡Hola! 👋🏼 Te comento que una vez que retiramos las fichas de tu cuenta, el premio entra en un proceso de pago que puede demorar de 1 a 3 horas ⏳💸. Previo a esto, verás que el cajero te envía un mensaje que indica que NO respondas hasta que se te envíe el premio. Esto nos ayuda a agilizar el proceso y evitar cualquier demora adicional.
 
 *Te pedimos amablemente que seas paciente, ¡en breve te enviamos el pago!* 🙏🏼`;
   const elementoTemporal = document.createElement("textarea");
