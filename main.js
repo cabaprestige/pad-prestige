@@ -178,7 +178,7 @@ bienvenida.addEventListener("click", function (e) {
 });
 
 info.addEventListener("click", () => {
-  const texto = `¡Hola! 😄 *Somos Caba Prestige, tu casino online de confianza.*
+  const texto = `¡Hola! 😄 *Somos Caba Prestige.*
 
 📱 *PLATAFORMA*: https://azarlatino1.com/ aquí encontrarás: 
 . Slots (maquinitas)
@@ -193,6 +193,9 @@ info.addEventListener("click", () => {
 💰 *Retiro mínimo:* $2.000
 💰 *Retiro máximo:* ¡No tenemos límite!
 💰 Contamos con un *sistema de pagos* (puede solicitar más info sobre el mismo)
+
+❗🔞 *Reglas del juego:*
+No aceptamos jugadores menores de 18 años. Si envías dinero siendo menor, será devuelto. Evita problemas y respeta esta política. ¡Gracias! 🙌🏼
 
 *Indicanos tu nombre y apellido para poder generarte un usuario!* 📥`;
   const elementoTemporal = document.createElement("textarea");
@@ -229,9 +232,13 @@ Una vez que complete los datos, le retiramos las fichas y su premio será enviad
 
 retiroExitoso.addEventListener("click", () => {
   const texto = `*SU PREMIO ESTÁ EN FILA* 🏆💰
-¡Las fichas ya fueron retiradas de su cuenta! *Cuando el pago esté listo le enviaremos el comprobante del mismo.* 
+Las fichas han sido retiradas correctamente de su cuenta. El comprobante de pago será enviado en cuanto se haya procesado.
 
-🙏🏼 Le recomiendo *NO responder hasta que le enviemos el comprobante del pago*, de lo contrario perderá el lugar en la fila y su pago se demorará más de lo previsto. *En caso de que quiera retirar más fichas POR FAVOR avísenos antes de que le abonemos*. ⚠️`;
+🙏🏼 Por favor, *NO envíe mensajes* (a menos que quiera realizar otra carga o retirar más fichas) hasta recibir su comprobante. Si lo hace, puede perder su lugar en la fila y el pago se demorará más.
+
+⏳ *El proceso de pago puede demorar entre 1 y 3 horas.* Le agradecemos mucho su paciencia.
+
+⚠️ Si desea retirar más fichas, *avísenos antes de que le realicemos el pago.*`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -242,9 +249,10 @@ retiroExitoso.addEventListener("click", () => {
 });
 
 premioEnviado.addEventListener("click", () => {
-  const texto = `*Gracias por jugar con Caba Prestige* 💘🙏🏼 Felicitaciones! *Ya enviamos tu premio* 👏🏼🥳🎉 Disfrutalo mucho ✨ No te olvides de recomendarnos mediante WhatsApp o Instagram @caba.prestige.
+  const texto = `*¡Felicitaciones!* 🎉
+Su premio ya ha sido enviado 🏆💰. Gracias por jugar con nosotros 😊
 
-*Por cada persona que recomiendes, y comience a jugar con nosotros te bonificamos 1.000 fichas* 💸🌟🤑`;
+🎁 *¡Recomiende nuestra plataforma a sus amigos, familiares o conocidos!* Si alguien se une gracias a su recomendación, recibirá un regalo especial como agradecimiento.`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -290,8 +298,9 @@ Los mismos, los iremos abonando de a tandas, por lo que le pedimos paciencia, ya
 });
 
 consultaporPremio.addEventListener("click", () => {
-  const texto = `Hola! Te comento que una vez que retiramos las fichas de tu cuenta, el premio entra en un proceso de pago que puede demorar de 1 a 3 horas. Previo a esto, vas a ver que el cajero te envía un mensaje que indica que no respondas hasta que se te envíe el premio. Esto nos ayuda a agilizar el proceso de pago y evitar cualquier demora adicional. 
-*Te pedimos amablemente que seas paciente que en breve te enviamos el pago!*`;
+  const texto = `¡Hola! 👋🏼 Te comento que una vez que retiramos las fichas de tu cuenta, el premio entra en un proceso de pago que puede demorar de 1 a 3 horas ⏳💸. Previo a esto, verás que el cajero te envía un mensaje que indica que NO respondas hasta que se te envíe el premio. Esto nos ayuda a agilizar el proceso y evitar cualquier demora adicional. 🚀
+
+*Te pedimos amablemente que seas paciente, ¡en breve te enviamos el pago!* 🙏🏼`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -327,7 +336,9 @@ solicitarComprobante.addEventListener("click", () => {
 });
 
 solicitarUsuario.addEventListener("click", () => {
-  const texto = `Envíeme *sólo su usuario asignado* debajo del comprobante para poder cargarle las fichas. Y por favor, *recuerde hacerlo siempre* 🙏🏼`;
+  const texto = `Para que podamos cargarle las fichas, *por favor envíe siempre su usuario escrito debajo del comprobante de pago.* 🙌🏼
+
+Es muy importante que lo haga cada vez que comparta un comprobante. ¡Gracias por su comprensión! 😊`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -364,9 +375,11 @@ noIngreso.addEventListener("click", () => {
 });
 
 cbuEquivocado.addEventListener("click", () => {
-  const texto = `¡Hola! 👋🏼 Lamentamos informarle que *envió dinero a un CBU con el cual no estamos trabajando en este momento.* 
-Es fundamental que *consulte el CBU justo antes de realizar una transferencia* para evitar este tipo de inconvenientes y posibles pérdidas de dinero. Esto lo dejamos aclarado previamente!
-Por favor, aguarde mientras un supervisor verifica si el dinero ha ingresado en la cuenta equivocada. *Puede demorar un rato.*`;
+  const texto = `¡Hola! 👋🏼
+*Lamentamos informarle que envió dinero a un CBU que no está activo en este momento.*
+Siempre consulte el CBU antes de hacer una transferencia para evitar este tipo de errores y posibles pérdidas. *Esto fue aclarado previamente.*
+
+Un supervisor revisará si el dinero ha sido transferido a la cuenta equivocada. *Esto puede tardar un poco.*`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
