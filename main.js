@@ -38,27 +38,21 @@ form.addEventListener("submit", function (e) {
 
   if (inputNombre.length != 0 && inputCBU != 0 && inputAlias.length != 0) {
     cbuxl.addEventListener("click", () => {
-      const texto = `¡Hola! 😄👋🏼
-📢 *IMPORTANTE: Antes de realizar una transferencia, por favor consulta el CBU vigente para evitar demoras en la acreditación de tus fichas.*
+      const texto = `¡Hola! 😃❣️ Te comparto el *CBU VIGENTE*. ⬇️ Recorda consultarlo antes de cada carga para evitar demoras. ‼️
 
-🔽 *DATOS DEL CBU VIGENTE* 🔽
-
-🔹 *Titular:* ${inputNombre}
-🔹 *CBU:* ${inputCBU}
-🔹 *ALIAS:* ${inputAlias} 
+🔸 *Titular:* ${inputNombre}
+🔸 *CBU:* ${inputCBU}
+🔸 *ALIAS:* ${inputAlias}
 
 💰 *CARGA MÍNIMA: $1.000*
-*Para comenzar a jugar, haz clic aquí* ➡️ https://azarlatino1.com/
 
-📲 NÚMERO DE WHATSAPP DE RESPALDO: ➡️ 11 3388 4819
+*Debe enviar el comprobante junto con su usuario registrado en la página.*
 
-📤 *¿Cómo proceder?*
-- Realiza la transferencia.
-- Envía el comprobante junto con SÓLO tu usuario registrado en la página.
+🔞 *No aceptamos jugadores menores de 18 años*. 
 
-🔞 *No aceptamos jugadores menores de 18 años*. Si detectamos que eres menor de edad y envías dinero, este será devuelto inmediatamente. Te pedimos no hacernos perder el tiempo y respetar esta regla.
+*¡Gracias por elegirnos y mucha suerte!* 🍀✨
 
-*¡Gracias por elegirnos y mucha suerte!* 🍀✨`;
+*Para comenzar a jugar, hace clic acá* ➡️ https://azarlatino1.com/`;
       const elementoTemporal = document.createElement("textarea");
       elementoTemporal.value = texto;
       document.body.appendChild(elementoTemporal);
