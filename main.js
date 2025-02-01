@@ -38,7 +38,8 @@ form.addEventListener("submit", function (e) {
 
   if (inputNombre.length != 0 && inputCBU != 0 && inputAlias.length != 0) {
     cbuxl.addEventListener("click", () => {
-      const texto = `¡Hola! 😃❣️ Te comparto el *CBU VIGENTE*. ⬇️ Recorda consultarlo antes de cada carga para evitar demoras. ‼️
+      const texto = `¡Hola! 😃💖
+*Te comparto el CBU VIGENTE.* ⬇️ Recorda consultarlo antes de cada carga para evitar demoras. ‼️
 
 🔸 *Titular:* ${inputNombre}
 🔸 *CBU:* ${inputCBU}
@@ -46,11 +47,11 @@ form.addEventListener("submit", function (e) {
 
 💰 *CARGA MÍNIMA: $1.000*
 
-*Debe enviar el comprobante junto con su usuario registrado en la página.*
+Debe enviar el comprobante junto con su usuario registrado en la página.
 
-🔞 *No aceptamos jugadores menores de 18 años*. 
+🔞 *No aceptamos jugadores menores de 18 años.* 
 
-*¡Gracias por elegirnos y mucha suerte!* 🍀✨
+¡Gracias por elegirnos y mucha suerte! 🍀✨
 
 *Para comenzar a jugar, hace clic acá* ➡️ https://azarlatino1.com/`;
       const elementoTemporal = document.createElement("textarea");
